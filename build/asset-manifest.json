@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fcc7736c.css",
+    "main.js": "/static/js/main.8a25dd50.js",
+    "static/media/Teko-Bold.ttf": "/static/media/Teko-Bold.548f8c0920e1990b79fc.ttf",
+    "static/media/Speeday-Regular-FFP.ttf": "/static/media/Speeday-Regular-FFP.d39a09b3092b7a9565ac.ttf",
+    "static/media/discord.png": "/static/media/discord.87103b7fb8f04ea4d3ef.png",
+    "static/media/twitter.png": "/static/media/twitter.93ac3f9a344ecd5d01a4.png",
+    "static/media/facebook.png": "/static/media/facebook.a5def58db1e9c1b38269.png",
+    "static/media/Screenshot_1.png": "/static/media/Screenshot_1.a328b2056d04f7757b24.png",
+    "index.html": "/index.html",
+    "main.fcc7736c.css.map": "/static/css/main.fcc7736c.css.map",
+    "main.8a25dd50.js.map": "/static/js/main.8a25dd50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcc7736c.css",
+    "static/js/main.8a25dd50.js"
+  ]
+}
