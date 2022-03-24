@@ -7,9 +7,6 @@ import {Box, Button, Flex, Input, Text} from '@chakra-ui/react';
 //total amount should be connected to the smart contract
  //total amount of minted nft that should be connected to the smart contract
 
-
-
-
 const MainMint = ({accounts, setAccounts}) => {
   const [mintAmount, setMintAmount] = useState(1);
   const isConnected = Boolean(accounts[0]);
@@ -26,14 +23,14 @@ const MainMint = ({accounts, setAccounts}) => {
 
 
 return (
-  <Flex justify="center" align="center" height="100vh" paddingBottom="150px">
+  <Flex justify="center" align="center" height="700px" paddingBottom="150px">
     <Box width="520px">
       <div>
-    <Text fontSize="48px" textShadow="0 5px #000000"> HEXGO NFT</Text>
+    <Text fontSize="68px" textShadow="0 5px #000000"> MINT A VAULT CARD!</Text>
     <Text
       marginTop="-25px"
       fontSize="20px"
-      letterSPacing="-5.5%"
+      letterSpacing="-5.5%"
       fontFamily="Quicksand"
       textShadow="0 2px 2px #000000"
       color="white"
@@ -41,7 +38,7 @@ return (
     <Text
 
       fontSize="20px"
-      letterSPacing="-5.5%"
+      letterSpacing="-5.5%"
       fontFamily="Quicksand"
       textShadow="0 2px 2px #000000"
       color="white"
@@ -102,7 +99,6 @@ return (
           fontSize="25px"
           cursor="pointer"
           fontFamily="inherit"
-          padding="10px 20px 10px 20px"
           marginTop="10px"
           onClick={''}>Mint Now
           </Button>
