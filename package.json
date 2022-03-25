@@ -50,6 +50,11 @@
     "dotenv": "^16.0.0",
     "ethereum-waffle": "^3.0.0",
     "ethers": "^5.6.1",
-    "hardhat": "^2.9.1"
+    "hardhat": "^2.9.1",
+    "html-webpack-plugin": "^5.5.0",
+    "path": "^0.12.7",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
   }
 }

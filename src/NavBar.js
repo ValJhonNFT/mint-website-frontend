@@ -25,8 +25,6 @@ const NavBar = ({ accounts, setAccounts}) => {
   const myaccount = accounts.toString();
 
 
-
-
 return (
   <div className="navbar-overlay">
 
@@ -36,15 +34,7 @@ return (
         <Link href="">
         <Image src={HexGoLogo} boxSize="42px" margin="25px 15px" height="30px" width="110px"/>
         </Link>
-        <Link href="https://www.facebook.com/">
-          <Image src={Facebook} boxSize="42px" margin="20px 15px" />
-        </Link>
-        <Link href="https://www.twitter.com/">
-          <Image src={Twitter} boxSize="42px" margin="20px 15px" />
-        </Link>
-        <Link href="https://www.discord.com/">
-          <Image src={Discord} boxSize="42px" margin="20px 15px" />
-        </Link>
+
     </Flex>
 
   {/* Right Side - Sections and Connect */}
@@ -56,11 +46,11 @@ return (
   padding="30px 30px 30px 30px"
   >
 
-<Box margin="0 15px">About</Box>
+<Box margin="0 15px"><a href=""> About</a></Box>
 <Spacer />
-<Box margin="0 15px">Mint</Box>
+<Box margin="0 15px"><a href="">Mint</a></Box>
 <Spacer />
-<Box margin="0 15px">Team</Box>
+<Box margin="0 15px"><a href="">Team</a></Box>
 <Spacer />
 {/* Connected Button*/}
 {isConnected ? ( //0x5d77b4d61650004a8d0170c79cf1052411a148c8

@@ -3,6 +3,7 @@ import './App.css';
 import MainMint from './MainMint';
 import NavBar from './NavBar';
 import MintInfo from './components/MintInfo';
+import Footer from './components/Footer';
 
 function App() {
   const [accounts, setAccounts] = useState([]);
@@ -14,12 +15,16 @@ function App() {
     <NavBar accounts={accounts} setAccounts={setAccounts} />
     <MainMint accounts={accounts} setAccounts={setAccounts} />
     <MintInfo />
+    <div className="footer">
+    <Footer />
+    </div>
+    </div>
     </div>
 
-    </div>
 
 
   </div>
+
 );
 }
 

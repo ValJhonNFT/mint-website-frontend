@@ -47,14 +47,36 @@ body {
 
 }
 
-.moving-background {
+.mintinfobox{
+  background-color:#117ACA;
+}
 
+.footer {
+color: #0D1218;
+}
+
+.copyright{
+  color:white;
+  font-size: 30px;
+  text-align: left;
+}
+
+.copyright-below {
+  font-family: Quicksand;
+  font-size: 15px;
+
+}
+
+.break {
+  margin-top:20px;
+}
+
+.moving-background {
   z-index: -1;
   position:absolute;
   top:0;
   left:0;
   right:0;
-
   background-image: url("./assets/background/Screenshot_1.png");
   background-size: cover;
   background-repeat: no-repeat;
